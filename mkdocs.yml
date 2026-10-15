@@ -1,0 +1,32 @@
+
+site_name: Руководство по стилю технической документации
+site_description: Стайлгайд для документации программных проектов
+site_author: Марина Машковцева, Софья Березина
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Главная: index.md
+  - Стиль изложения: writing-style.md
+  - Орфография и пунктуация: spelling.md
+  - Оформление текста: formatting.md
+  - Работа с Markdown: markdown.md
+  - Шаблоны документов: templates.md
+  - Терминология и глоссарий: glossary.md
+  - Примеры документации:
+      - README проекта: examples/readme-example.md
+      - Инструкция по установке: examples/installation-example.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - fenced_code
+  - toc:
+      permalink: true
