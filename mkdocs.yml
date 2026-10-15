@@ -20,6 +20,7 @@ nav:
   - Работа с Markdown: markdown.md
   - Шаблоны документов: templates.md
   - Терминология и глоссарий: glossary.md
+  - Доступность документации: accessibility.md
   - Примеры документации:
       - README проекта: examples/readme-example.md
       - Инструкция по установке: examples/installation-example.md
