@@ -60,4 +60,3 @@ README — основной документ, с которого начинае
 
 - [Пример README](examples/readme-example.md).
 - [Пример инструкции по установке](examples/installation-example.md).
-  
